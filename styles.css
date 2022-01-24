@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100%;
+}
+
+article{
+    position: relative;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    height: 490px;
+    width: 380px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 1px 2px 21px -1px rgba(0,0,0,0.68);
+}
+
+h1{
+    margin-bottom: 40px;
+    border-bottom: 5px solid rgb(50, 50, 110);
+    padding-bottom: 10px;
+}
+
+#person-img{
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+}
+
+#author{
+    font-size: 22px;
+    margin: 10px 0 10px 0;
+}
+
+#job{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgb(50, 50, 110);
+    font-weight: bold;
+    
+}
+
+#info{
+    line-height: 1.2;
+    
+}
+
+.button-container{
+    position: absolute;
+    bottom: 10px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.btn{
+    margin-right: 5px;
+    width: 50px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: rgb(85, 85, 170);
+}
+
+.btn:hover{
+    color: rgb(60, 60, 124);
+}
+
+.randomBtn{
+    width: 120px;
+    height: 40px;
+    border-radius: 7px;
+    outline: none;
+    position: absolute;
+    bottom: 50px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    background-color: rgb(60, 60, 124);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px){
+    
+    h1{
+        margin-bottom: 20px;
+    }
+    
+    article{
+        width: 290px;
+    }
+
+    #info{
+        font-size: 14px;
+    }  
+
+    #job{
+        font-size: 22px;
+    }
+
+    #author{
+        font-size: 22px;
+    }
+}
